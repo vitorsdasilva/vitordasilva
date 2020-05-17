@@ -6,41 +6,168 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Vitor da Silva - web developer</title>
 	<link rel="stylesheet" href="css/estilos.css">
+	<link
+      href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Press+Start+2P&family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+   >
+
+   <script
+   src="https://kit.fontawesome.com/6d6952c5be.js"
+   crossorigin="anonymous"
+></script>
 </head>
+
 
 <body>
 	<header>
 		<nav class="menu">
-			<ul>
-				<li><a href="#">Sobre</a></li>
-				<li><a href="#">Portfólio</a></li>
-				<li><a href="#">Contato</a></li>
+			<ul class="container">
+				<li>
+					<a href="index.html" alt="Inicio">
+						<i class="fas fa-home"></i>
+						
+					</a> 
+				</li>
+				<li><a href="#sobre">Sobre</a></li>
+				<li><a href="#portfolio">Portfólio</a></li>
+				<li><a href="#contato">Contato</a></li>
 			</ul>
 		</nav>
-		<div>
+		<div class="titulo">
 			<h1 class="site-title">Vitor da Silva</h1>
 			<h2 class="site-subtitle">web developer</h2>
 		</div>
 	</header>
-	<section>
+	<section class="sobre container" id="sobre">
+		<h2>Sobre</h2>
+
+		<figure class="avatar">
+		  <img src="./img/vitor-avatar.jpg" alt="Vitor da Silva">
+		</figure>
+  
+		<p>
+		  Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quidem
+		  atque architecto, odit doloremque consectetur vero! Aut fugit neque
+		  sequi id non rerum facilis incidunt explicabo. Officia beatae vitae
+		  laudantium!
+		</p>
+  
+		<p>
+		  Tenetur dicta rem ut aliquid quo eos non expedita impedit. Ipsa sapiente
+		  corrupti iusto eum similique voluptatum magni velit sit ab, vitae quas,
+		  perspiciatis excepturi, vel quaerat itaque dicta repudiandae?
+		</p>
+  
+		<p>
+		  Unde necessitatibus fugiat similique aperiam ipsa voluptatum ex commodi
+		  repellendus! Sequi libero accusantium facere quis, dolores voluptate
+		  itaque distinctio natus iure, quibusdam eaque. Laborum incidunt nesciunt
+		  facere aperiam quibusdam inventore.
+		</p>
+  
+		<p>
+		  Unde necessitatibus fugiat similique aperiam ipsa voluptatum ex commodi
+		  repellendus! Sequi libero accusantium facere quis, dolores voluptate
+		  itaque distinctio natus iure, quibusdam eaque. Laborum incidunt nesciunt
+		  facere aperiam quibusdam inventore.
+		</p>
+		<p>
+		  Unde necessitatibus fugiat similique aperiam ipsa voluptatum ex commodi
+		  repellendus! Sequi libero accusantium facere quis, dolores voluptate
+		  itaque distinctio natus iure, quibusdam eaque. Laborum incidunt nesciunt
+		  facere aperiam quibusdam inventore.
+		</p>
+  
+		<p>
+		  Este site foi construído durante a
+		  <a href="https://www.alura.com.br/imersao-css">Imersão CSS da Alura</a>
+		</p>
+	  </section>
+
+ 	  <section class="portfolio container" id="portfolio">
 		<h2>Portfólio</h2>
-		<figure>
-			<img class="img-portfolio" src="./img/ecommerce-creditos-s-o-c-i-a-l-c-u-t-unsplash.jpg" alt="eCommerce">
-			<figcaption>eCommerce</figcaption>
-		</figure>
-		<figure>
-			<img class="img-portfolio" src="./img/mobile-creditos-nate-grant-unsplash.jpg" alt=">Mobile">
-			<figcaption>Mobile</figcaption>
-		</figure>
-		<figure>
-			<img class="img-portfolio" src="./img/webdesign-creditos-domenico-loia-unsplash.jpg" alt="Web design">
-			<figcaption>Web design</figcaption>
-		</figure>
-		<figure>
-			<img class="img-portfolio" src="./img/projpessoais-creditos-hal-gatewood-unsplash.jpg"
-				alt="Projetos pessoais">
-			<figcaption>Projetos pessoais</figcaption>
-		</figure>
+
+
+        <div class="grid">
+		  
+			<div class="flip-card">
+			  <div class="card">
+				<figure class="card-front">
+				<img class="img-portfolio" src="./img/alura.png" alt="eCommerce">
+				</figure>
+				<div class="card-back">
+					<h3>eCommerce</h3>
+				</div>
+			  </div>
+			</div>
+
+			<div class="flip-card">
+				<div class="card">
+				  <figure class="card-front">
+					<img class="img-portfolio" src="./img/caelum.png" alt=">Mobile">
+					
+					</figure>
+					<div class="card-back">
+						<h3>Mobile</h3>
+					</div>
+				</div>
+			</div>
+		
+			<div class="flip-card">
+				<div class="card">
+				  <figure class="card-front">
+					  <img class="img-portfolio" src="./img/hispters.png" alt="Hipsters.Tech" alt="Web design">
+						
+				  </figure>
+				  <div class="card-back">
+					<h3>Web design</h3>
+				  </div>
+				</div>
+			</div>
+
+			<div class="flip-card">
+				<div class="card">
+				  <figure class="card-front">
+				    <img class="img-portfolio" src="./img/likeaboss.png" alt="Projetos pessoais">
+					
+				  </figure>
+				  <div class="card-back">
+					<h3>Projetos pessoais</h3>
+				  </div>
+				</div>
+			</div>
+
+			<div class="flip-card">
+				<div class="card">
+				  <figure class="card-front">
+					<img class="img-portfolio" src="./img/hobby.png" alt="Handstand">
+					
+				  </figure>
+				<div class="card-back">
+				  <h3>Handstand</h3>
+				</div>
+			  </div>
+			</div>
+
 	</section>
+
+	<section class="contato container" id="contato">
+		<h2>Contato</h2>
+  
+		<div class="grid icons">
+		  <a target="_blank" href="https://github.com">
+			<i class="fab fa-github"></i>
+		  </a>
+		  <a target="_blank" href="https://twitter.com">
+			<i class="fab fa-twitter"></i>
+		  </a>
+		  <a target="_blank" href="https://linkedin.com/in/vitorsdasilva">
+			<i class="fab fa-linkedin"></i>
+		  </a>
+		  <a target="_blank" href="https://instagram.com">
+			<i class="fab fa-instagram"></i>
+		  </a>
+		</div>
+	  </section>
 </body>
 </html>
